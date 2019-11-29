@@ -29,8 +29,11 @@ y_head = linear_reg.predict(X)
 
 
 # draw a chart to see data points and prediction line
-plt.scatter(X[:, 0:1], y, color='gray')
+plt.scatter(X[:, 0:1], y, color='blue')
 plt.scatter(X[:, 1:2], y, color='red', linewidth=1)
+
+plt.scatter(X[:, 0:1], y_head, color='gray', alpha=0.5)
+plt.scatter(X[:, 1:2], y_head, color='yellow', linewidth=1, alpha=0.5)
 plt.show()
 
 

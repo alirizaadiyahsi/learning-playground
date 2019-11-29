@@ -29,7 +29,7 @@ print(linear_reg.coef_)
 y_head = linear_reg.predict(X)
 
 # draw a chart to see data points and prediction line
-plt.scatter(X, y, color='gray')
+plt.scatter(X, y, color='blue')
 plt.plot(X, y_head, color='red', linewidth=1)
 plt.show()
 
