@@ -1,6 +1,6 @@
-﻿using System;
+﻿using CommandPattern.Commands;
+using System;
 using System.Collections.Generic;
-using CommandPattern.Commands;
 
 namespace CommandPattern
 {
